@@ -65,65 +65,21 @@
             
             
 
-        <div class="container">
-
-
- <div class="row">
+     <div class="row">
   <div class="col-sm-12">
 
 
             <!-- Post start -->
                         <div class="post">
 <h1 class="post-title">Writing</h1>
-<div class="post-entry"> <p><p>This page lists my writing. My conference papers and <a href="../talks/index.html">talks</a> are also available on this site. For a list of digital projects I&#39;m involved in please refer to my <a href="../projects/index.html">projects</a> page.</p></p> </div>
-
+<div class="post-entry"> <p><p>This page lists my writing. My conference papers and <a href="../talks/index.html">talks</a> are also available on this site. For a list of digital projects I&#39;m involved in please refer to my <a href="../projects/index.html">projects</a> page.</p></p> 
 
 
      <style type="text/css" id="zoterostylesheet" scoped>
-.bibshowhide {display:none;}
-.abstract {display:none;}
-.blink {margin:0;margin-right:15px;padding:0;display:none;}
+.bib-item{padding-left: 22px; text-indent: -22px ;}
 </style>
-<script type="text/javascript">
- function downloadFile(elem) {
-  filename = "article.ris"
-  if (elem.parentNode) {
-    var elems = elem.parentNode.getElementsByTagName('*');
-    for (i in elems) {
-        if((' ' + elems[i].className + ' ').indexOf(' ' + 'bibshowhide' + ' ') > -1)
-           {
-  var ee = elems[i]
-  if (ee.childNodes[0]) { ee = ee.childNodes[0] }
-  var pom = document.createElement('a');
-  pom.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(ee.innerHTML));
-  pom.setAttribute('download', filename);
-  pom.click();
-}}}}
-function show(elem) {
-  if (elem.parentNode) {
-   var elems = elem.parentNode.getElementsByTagName('*'), i;
-    for (i in elems) {
-        if((' ' + elems[i].className + ' ').indexOf(' ' + 'bibshowhide' + ' ') > -1)
-           { if (elems[i].style.display == 'block') {elems[i].style.display = 'none';} else {elems[i].style.display = 'block';}}}}
-  return(void(0));}
-function changeCSS() {
-  if (!document.styleSheets) return;
-  var theRules = new Array();
-    //ss = document.styleSheets[document.styleSheets.length-1];
-    var ss = document.getElementById('zoterostylesheet');
-    if (ss) {
-    ss = ss.sheet
-  if (ss.cssRules)
-    theRules = ss.cssRules
-  else if (ss.rules)
-    theRules = ss.rules
-  else return;
-  theRules[theRules.length-2].style.display = 'inline';
-    theRules[theRules.length-1].style.display = 'inline';
-    }
-    }
-changeCSS();</script>
 
+  
 <div class="bibliography"><style type="text/css" id="zoterostylesheet" scoped>
 .bibshowhide {display:none;}
 .bib-venue-short, .bib-venue {display:none;}.bib-venue-short::before, .bib-venue::before, .blink a::before  {content: attr(data-before);}.blink {margin:0;margin-right:15px;padding:0;display:none;}</style><script type="text/javascript" src="https://localhost/writing/site/clipboard.min.js"></script><script type="text/javascript" src="https://localhost/writing/site/jquery.min.js"></script><script type="text/javascript">jQuery(document).ready(function () {jQuery('.blink a').click(showThis);
@@ -579,13 +535,12 @@ large humanities data sets with confidence they have corrected for pre-existing 
 	year = {2015},
 }</div></div></div><div class="blink"><a  title="Download RIS/Endnote record"  onclick="dwnD('VFkgIC0gUlBSVA0KVEkgIC0gQSBub25wYXJhbWV0cmljIHZpZXcgb2YgdGhlIGNpdmlsaXppbmcgcHJvY2VzcyBpbiBMb25kb27igJlzIE9sZCBCYWlsZXkNCkFVICAtIE1hY2tlbnppZSwgSmFzcGVyDQpBVSAgLSBTYWludWRpbiwgUmFhemVzaA0KQVUgIC0gU21pdGhpZXMsIEphbWVzDQpBVSAgLSBXb2xmZnJhbSwgSGVhdGhlcg0KVDIgIC0gVUNETVMgUmVzZWFyY2ggUmVwb3J0DQpBQiAgLSBBbiBpbmNyZWFzaW5nIG51bWJlciBvZiBsYXJnZSBodW1hbml0aWVzIGRhdGEgc2V0cyBhcmUgYmVjb21pbmcgYXZhaWxhYmxlLCBhbmQgbmV3IHRvb2xzIGFuZCBtZXRob2RzIGFyZSByZXF1aXJlZCB0byBhbmFseXplIHRoZW0uIFRoZXJlIGlzIGEgcmlzayB0aGF0IHN0YXRpc3RpY2lhbnMgYW5kIGh1bWFuaXN0cyB3aWxsIGZhaWwgdG8gcmVjb2duaXplIHRoZSBoaXN0b3JpY2FsIGNvbnRpbmdlbmN5IG9mIHN1Y2ggZGF0YS4gSWYgYXBwcm9wcmlhdGUgbWV0aG9kcyBkb27igJl0IGFwcGVhciwgYWxnb3JpdGhtaWMgYW5hbHlzaXMgb2YgbGFyZ2UgaHVtYW5pdGllcyBkYXRhc2V0cyB3aWxsIG9ubHkgYmUgYWJsZSB0byBiZSB1c2VkIGluIGEgaGV1cmlzdGljIHNlbnNlLCB0byBhdWdtZW50IGN1cnJlbnQgdW5kZXJzdGFuZGluZwphbmQgcHJvbXB0IG5ldyBxdWVzdGlvbnMgYW5kIGFuZ2xlcyBvZiBhbmFseXNpcyBidXQgbm90IHRvIG1ha2Ugc3Ryb25nIGVtcGlyaWNhbCBjbGFpbXMuIFRoaXMgd29yayBkZXZlbG9wcyBCYXllc2lhbiBub25wYXJhbWV0cmljIG1vZGVscyB0aGF0IGFsbG93IHJlc2VhcmNoZXJzIHRvIGFzayBsb25naXR1ZGluYWwgcXVlc3Rpb25zIG9mCmxhcmdlIGh1bWFuaXRpZXMgZGF0YSBzZXRzIHdpdGggY29uZmlkZW5jZSB0aGV5IGhhdmUgY29ycmVjdGVkIGZvciBwcmUtZXhpc3RpbmcgYmlhcyBkZXJpdmVkIGZyb20gdGhlIHJlY2VpdmVkIHRyYWRpdGlvbi4NCkNZICAtIENocmlzdGNodXJjaCwgTi5aDQpEQSAgLSAyMDE1Ly8vDQpQWSAgLSAyMDE1DQpQQiAgLSBVbml2ZXJzaXR5IG9mIENhbnRlcmJ1cnkNClNOICAtIFVDRE1TMjAxNS8xDQpVUiAgLSBodHRwOi8vd3d3Lm1hdGguY2FudGVyYnVyeS5hYy5uei9+ci5zYWludWRpaW4vcHJlcHJpbnRzLzIwMTUwODI4X2NpdmlsaXppbmdQcm9jT0JPLnBkZg0KRVIgIC0=');return false;">RIS</a></div><span class='Z3988' title='url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=report&amp;rft.series=UCDMS%20Research%20Report&amp;rft.btitle=A%20nonparametric%20view%20of%20the%20civilizing%20process%20in%20London%E2%80%99s%20Old%20Bailey&amp;rft.place=Christchurch%2C%20N.Z&amp;rft.publisher=University%20of%20Canterbury&amp;rft.aufirst=Jasper&amp;rft.aulast=Mackenzie&amp;rft.au=Jasper%20Mackenzie&amp;rft.au=Raazesh%20Sainudin&amp;rft.au=James%20Smithies&amp;rft.au=Heather%20Wolffram&amp;rft.date=2015'></span></div></div></div><div id="zbw_credits" style="text-align:right;">A <a href="https://github.com/davidswelt/zot_bib_web">zot_bib_web</a> bibliography.</div></div>
 
-
-
+    
 
     </div>
-      </div>
 
-</div></div> </div>
+
+</div></div> </div> </div>
 
 
 
